@@ -1,8 +1,8 @@
 <?php
-/*
+/**
  * Main template file.
  *
- * @package AbovEstate
+ * @package Abovestate
  */
 get_header();
 ?>
