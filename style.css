@@ -16,3 +16,9 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you're learned with others.
 
  */
+
+.custom-logo-link img{
+    max-height: 50px;
+    object-fit: contain;
+    width: auto;
+}

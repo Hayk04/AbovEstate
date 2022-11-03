@@ -24,6 +24,3 @@ function abovestate_get_theme_instance() {
 abovestate_get_theme_instance();
 
 
-
-?>
-
