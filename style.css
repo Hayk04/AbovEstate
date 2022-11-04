@@ -17,8 +17,69 @@ Use it to make something cool, have fun, and share what you're learned with othe
 
  */
 
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.custom-logo-link{
+    display: flex;
+    align-items: center;
+}
+
+
 .custom-logo-link img{
     max-height: 50px;
     object-fit: contain;
     width: auto;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar__inner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar__list{
+    padding-left: 20px;
+    list-style-type: none;
+    display: flex;
+
+}
+
+.navbar__item{
+    margin: 0 15px;
+    padding: 10px 0;
+    position: relative;
+
+}
+
+.dropdown__menu{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s linear;
+    width: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #000;
+}
+
+
+.navbar__item.dropdown:hover .dropdown__menu{
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown__item{
+    color: #fff;
 }
